@@ -25,7 +25,7 @@ module.exports = {
             await message.channel.send(ThisEmbed)
             return
         }
-        let products = database.get('products')
+        let products = database.get('Products')
         let entries = Object.entries(products)
         if (entries.length == 0) {
             let ThisEmbed = new Discord.MessageEmbed()
