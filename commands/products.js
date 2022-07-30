@@ -1,4 +1,4 @@
-const roblox = require("noblox");
+const roblox = require("noblox.js");
 const config = require("../config.json")
 
 
