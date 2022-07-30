@@ -2,5 +2,6 @@
     "token": "tokenHere",
     "prefix": ".",
     "apikey": "yourapikey",
-    "slash_commands": "enabled"
+    "slash_commands": "NotAvaliableYetSorry",
+    "prefix_commands": "true"
 }
