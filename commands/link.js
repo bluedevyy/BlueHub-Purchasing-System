@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const editJsonFile = require('edit-json-file');
 const { getOwnership } = require('noblox.js');
-const userdata = require("../UsersData.json");
 module.exports = {
 	name: 'link',
 	description: 'Links your Discord Account to your Registered User with a code generated from the Hub.',
@@ -18,7 +17,7 @@ module.exports = {
     cooldown: 10,
 	run: async (bot, message, args) => {
         let guild = bot.guilds.cache.get(guild)
-        var database = editJsonFile('userdata', {autosave: true})
+        var database = editJsonFile('UsersData.json', {autosave: true})
         let users = database.get('Users')
         if (users) {
             let entries = Object.entries(users)
