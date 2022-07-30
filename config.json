@@ -1,8 +1,5 @@
 {
     "token": "yourtoken",
     "prefix": ".",
-    "MongoDB": {
-        "url": "yourmongourl"
-    },
     "apikey": "yourapikey"
 }
