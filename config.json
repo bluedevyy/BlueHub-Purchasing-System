@@ -4,5 +4,5 @@
     "apikey": "yourapikey",
     "slash_commands": "NotAvaliableYetSorry",
     "prefix_commands": "true",
-    "database": ".database.json/Products"
+    "MaindatabaseFile": "./database.json/Products"
 }
