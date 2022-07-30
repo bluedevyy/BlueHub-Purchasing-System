@@ -3,5 +3,11 @@
     "prefix": ".",
     "apikey": "yourapikey",
     "slash_commands": "NotAvaliableYetSorry",
-    "prefix_commands": "true"
+    "prefix_commands": "true",
+    "database": {
+        "port": 5000,
+        "ip": "DBaddressHere",
+        "connection_string": "dbConnectionString",
+        "Sqalchemy": "true"
+    }
 }
