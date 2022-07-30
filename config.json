@@ -1,5 +1,6 @@
 {
     "token": "tokenHere",
     "prefix": ".",
-    "apikey": "yourapikey"
+    "apikey": "yourapikey",
+    "slash_commands": "enabled"
 }
