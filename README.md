@@ -1,1 +1,0 @@
-BlueHub Purchasing System

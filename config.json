@@ -1,8 +1,0 @@
-{
-    "token": "tokenHere",
-    "prefix": ".",
-    "apikey": "yourapikey",
-    "slash_commands": "NotAvaliableYetSorry",
-    "prefix_commands": "true",
-    "MaindatabaseFile": "./database.json/Products"
-}

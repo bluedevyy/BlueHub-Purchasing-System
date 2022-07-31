@@ -577,6 +577,6 @@ bot.on('ready', async () => {
         });
     }
 });
-bot.login();
+bot.login(process.env.BOT_TOKEN);
 bot.httpServer = http.createServer(app).listen(process.env.PORT || process.env.HUB_ACCESSPORT || 8080)
 if (process.argv[2] !== '--restarted') console.info('WEB | Online!');

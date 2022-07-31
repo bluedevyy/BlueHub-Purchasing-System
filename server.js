@@ -4,15 +4,14 @@
 */
 const { spawn } = require('child_process');
 const Discord = require('discord.js')
-const fs = require('fs');
-const config = require('./config.json');
+const fs = require('fs')
 
 const bot = new Discord.Client({
     presence: {
         status: 'idle',
         activity: {
-            name: 'BlueHub V1.1',
-            type: 'PLAYING'
+            name: 'BlueHub!',
+            type: 'WATCHING'
         }
     }
 })
@@ -51,10 +50,15 @@ function StartBot(arg) {
     full.stderr.on('data', (data) => {
         console.error(String(data));
     });
-            bot.login(config.token)
+    full.on('close', function (code) {
+        if (code == 1) {
+            require('dotenv').config();
+            bot.login(process.env.BOT_TOKEN)
         }
         if (code == 2) {
             StartBot('--restarted')
         }
+    });
+}
 
 StartBot()
