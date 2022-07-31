@@ -1,7 +1,7 @@
 {
-  "name": "hub-linkbot",
+  "name": "BlueHub",
   "version": "1.0.0",
-  "description": "This is a Discord Bot that uses web requests in order to link your ROBLOX Product Hub to a Discord Server.",
+  "description": "https://github.com/BlueTwistedKid/BlueHub-Purchasing-System",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdwoj5/hub-linkbot.git"
+    "url": "git+https://github.com/BlueTwistedKid/BlueHub-Purchasing-System"
   },
   "keywords": [
     "roblox",
@@ -20,12 +20,12 @@
     "bot",
     "server"
   ],
-  "author": "jdwoj5",
+  "author": "BlueTwistedKid",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jdwoj5/hub-linkbot/issues"
+    "url": "https://github.com/BlueTwistedKid/BlueHub-Purchasing-System"
   },
-  "homepage": "https://github.com/jdwoj5/hub-linkbot#readme",
+  "homepage": "https://github.com/BlueTwistedKid/BlueHub-Purchasing-System",
   "dependencies": {
     "axios": "^0.21.1",
     "discord.js": "^12.2.0",

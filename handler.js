@@ -45,10 +45,10 @@ const intents = new Discord.Intents([ //  ADDITION COURTESY OF DarkMatterMatt ON
 ]);
 const bot = new Discord.Client({
     presence: {
-        status: 'dnd',
+        status: 'idle',
         activity: {
-            name: 'with some Products.',
-            type: 'PLAYING'
+            name: 'BlueHub!',
+            type: 'WATCHING'
         }
     },
     ws: { intents }
